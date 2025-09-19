@@ -10,7 +10,7 @@
 
 #define tamanho_vetor(x) x->tamanho
 #define inicio_vetor(x) 0
-#define fim_vetor x->tamanho-1
+#define fim_vetor(x) x->tamanho-1
 #define elemento_vetor(x,y) x->vetor[y]
 
 #define ORDENADO 1

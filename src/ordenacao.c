@@ -49,3 +49,31 @@ void bubble_sort (vetor *v) {
 	}
 
 }
+
+/* Quick Sort */
+
+int particiona (vetor *v, int ini, int fim) {
+	int pivo = elemento_vetor (v, fim);
+	int i = ini - 1;
+
+	for (int j = ini; j < fim; j++) {
+		if (elemento_vetor(v,j) <= pivo) {
+			i++;
+			troca (v, i, j);
+		}
+	}
+	
+	troca (v, i + 1, fim);
+	
+	return i + 1;
+}
+
+void quick_sort (vetor *v, int ini, int fim) {
+	int p;
+
+	if (ini < fim) {
+		p = particiona (v, ini, fim);
+		quick_sort (v, ini, p - 1);
+		quick_sort (v, p + 1, fim);
+	}
+}

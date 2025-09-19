@@ -9,8 +9,9 @@ void selection_sort (vetor *v);
 void bubble_sort (vetor *v);
 
 /* algoritmos logaritmicos */
-/*
 void quick_sort (vetor *v, int ini, int fim);
+
+/*
 void quick_sort_aleatorizado (vetor *v, int ini, int fim);
 void quick_sort_paralelo (vetor *v, int ini, int fim);
 void merge_sort (vetor *v, int ini, int fim);
