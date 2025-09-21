@@ -77,3 +77,51 @@ void quick_sort (vetor *v, int ini, int fim) {
 		quick_sort (v, p + 1, fim);
 	}
 }
+
+/* Merge Sort */
+void merge (vetor *v, int ini, int meio, int fim) {
+	int n1 = meio - ini + 1;
+	int n2 = fim - meio;
+	int i = 0, j = 0, k = 0;
+	int tamanho = fim - ini + 1;
+	vetor* aux = cria_vetor (tamanho);
+
+	if (!aux || !v)
+		return;
+
+	/* Copiando os valores de v em aux */
+	while (k < tamanho) { 
+		elemento_vetor(aux, k) = elemento_vetor (v, ini + k);
+		k++;
+	}
+
+	k = ini;
+	while (i < n1 && j < n2) {
+		if (elemento_vetor (aux, i) < elemento_vetor (aux, j)) {
+			elemento_vetor (v, k) = elemento_vetor (aux, i);
+			i++;
+		} else {
+			elemento_vetor (v, k) = elemento_vetor (aux, j);
+			j++;
+		}
+		k++;
+	}
+
+	while (i < n1) 
+		elemento_vetor (v, k++) = elemento_vetor (aux, i++);
+
+	while (j < n2) 
+		elemento_vetor (v, k++) = elemento_vetor (aux, j++);
+	
+}
+
+void merge_sort (vetor *v, int ini, int fim) {
+	int meio;
+
+	if (ini < fim) {
+		meio = ini + (fim - ini)/2;
+		merge_sort (v, ini, meio);
+		merge_sort (v, meio + 1, fim);
+		merge(v, ini, meio, fim);
+	}
+}

@@ -96,7 +96,20 @@ int main (int argc, char *argv[]) {
 		v = destroi_vetor (v);
 	}	
 
-
+	printf("Teste de ordenacao: merge sort\n");
+	for (int i = 0; i < entradas; i++) {
+		sprintf (buffer, "./entradas/aleatoria/aleat_%d.txt", i + 1);
+		v = cria_vetor_arquivo (buffer);
+		clock_gettime(CLOCK_MONOTONIC, &inicio);
+		merge_sort (v, inicio_vetor(v), fim_vetor(v));
+		clock_gettime(CLOCK_MONOTONIC, &fim);
+		tempo = (fim.tv_sec - inicio.tv_sec) + (fim.tv_nsec - inicio.tv_nsec) / 1e9;
+		if (ordenacao (v) == ORDENADO)
+			printf ("Teste %d / %d: Vetor ordenado - %.3f s\n", i + 1, entradas, tempo);
+		else
+			printf ("Teste %d / %d: Vetor desordenado\n", i + 1, entradas);
+		v = destroi_vetor (v);
+	}	
 
 	return 0;
 }
