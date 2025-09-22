@@ -1,0 +1,111 @@
+ENTRADA ALEATORIA
+Metodo de ordenacao: Selection Sort
+Teste 1 / 10: Vetor ordenado - 0.303 s
+Teste 2 / 10: Vetor ordenado - 0.303 s
+Teste 3 / 10: Vetor ordenado - 0.301 s
+Teste 4 / 10: Vetor ordenado - 0.302 s
+Teste 5 / 10: Vetor ordenado - 0.299 s
+Teste 6 / 10: Vetor ordenado - 0.303 s
+Teste 7 / 10: Vetor ordenado - 0.302 s
+Teste 8 / 10: Vetor ordenado - 0.301 s
+Teste 9 / 10: Vetor ordenado - 0.297 s
+Teste 10 / 10: Vetor ordenado - 0.291 s
+
+Metodo de ordenacao: Insertion Sort
+Teste 1 / 10: Vetor ordenado - 0.127 s
+Teste 2 / 10: Vetor ordenado - 0.125 s
+Teste 3 / 10: Vetor ordenado - 0.126 s
+Teste 4 / 10: Vetor ordenado - 0.126 s
+Teste 5 / 10: Vetor ordenado - 0.126 s
+Teste 6 / 10: Vetor ordenado - 0.125 s
+Teste 7 / 10: Vetor ordenado - 0.126 s
+Teste 8 / 10: Vetor ordenado - 0.125 s
+Teste 9 / 10: Vetor ordenado - 0.126 s
+Teste 10 / 10: Vetor ordenado - 0.127 s
+
+Metodo de ordenacao: Bubble Sort
+Teste 1 / 10: Vetor ordenado - 0.433 s
+Teste 2 / 10: Vetor ordenado - 0.433 s
+Teste 3 / 10: Vetor ordenado - 0.431 s
+Teste 4 / 10: Vetor ordenado - 0.432 s
+Teste 5 / 10: Vetor ordenado - 0.430 s
+Teste 6 / 10: Vetor ordenado - 0.433 s
+Teste 7 / 10: Vetor ordenado - 0.435 s
+Teste 8 / 10: Vetor ordenado - 0.428 s
+Teste 9 / 10: Vetor ordenado - 0.431 s
+Teste 10 / 10: Vetor ordenado - 0.429 s
+
+ENTRADA CRESCENTE
+Metodo de ordenacao: Selection Sort
+Teste 1 / 10: Vetor ordenado - 0.144 s
+Teste 2 / 10: Vetor ordenado - 0.143 s
+Teste 3 / 10: Vetor ordenado - 0.144 s
+Teste 4 / 10: Vetor ordenado - 0.143 s
+Teste 5 / 10: Vetor ordenado - 0.144 s
+Teste 6 / 10: Vetor ordenado - 0.144 s
+Teste 7 / 10: Vetor ordenado - 0.144 s
+Teste 8 / 10: Vetor ordenado - 0.143 s
+Teste 9 / 10: Vetor ordenado - 0.149 s
+Teste 10 / 10: Vetor ordenado - 0.146 s
+
+Metodo de ordenacao: Insertion Sort
+Teste 1 / 10: Vetor ordenado - 0.125 s
+Teste 2 / 10: Vetor ordenado - 0.127 s
+Teste 3 / 10: Vetor ordenado - 0.125 s
+Teste 4 / 10: Vetor ordenado - 0.125 s
+Teste 5 / 10: Vetor ordenado - 0.125 s
+Teste 6 / 10: Vetor ordenado - 0.126 s
+Teste 7 / 10: Vetor ordenado - 0.125 s
+Teste 8 / 10: Vetor ordenado - 0.125 s
+Teste 9 / 10: Vetor ordenado - 0.125 s
+Teste 10 / 10: Vetor ordenado - 0.125 s
+
+Metodo de ordenacao: Bubble Sort
+Teste 1 / 10: Vetor ordenado - 0.134 s
+Teste 2 / 10: Vetor ordenado - 0.134 s
+Teste 3 / 10: Vetor ordenado - 0.133 s
+Teste 4 / 10: Vetor ordenado - 0.133 s
+Teste 5 / 10: Vetor ordenado - 0.133 s
+Teste 6 / 10: Vetor ordenado - 0.134 s
+Teste 7 / 10: Vetor ordenado - 0.135 s
+Teste 8 / 10: Vetor ordenado - 0.134 s
+Teste 9 / 10: Vetor ordenado - 0.133 s
+Teste 10 / 10: Vetor ordenado - 0.134 s
+
+ENTRADA DECRESCENTE
+Metodo de ordenacao: Selection Sort
+Teste 1 / 10: Vetor ordenado - 0.441 s
+Teste 2 / 10: Vetor ordenado - 0.441 s
+Teste 3 / 10: Vetor ordenado - 0.442 s
+Teste 4 / 10: Vetor ordenado - 0.443 s
+Teste 5 / 10: Vetor ordenado - 0.439 s
+Teste 6 / 10: Vetor ordenado - 0.440 s
+Teste 7 / 10: Vetor ordenado - 0.441 s
+Teste 8 / 10: Vetor ordenado - 0.440 s
+Teste 9 / 10: Vetor ordenado - 0.442 s
+Teste 10 / 10: Vetor ordenado - 0.442 s
+
+Metodo de ordenacao: Insertion Sort
+Teste 1 / 10: Vetor ordenado - 0.132 s
+Teste 2 / 10: Vetor ordenado - 0.132 s
+Teste 3 / 10: Vetor ordenado - 0.133 s
+Teste 4 / 10: Vetor ordenado - 0.132 s
+Teste 5 / 10: Vetor ordenado - 0.132 s
+Teste 6 / 10: Vetor ordenado - 0.133 s
+Teste 7 / 10: Vetor ordenado - 0.132 s
+Teste 8 / 10: Vetor ordenado - 0.133 s
+Teste 9 / 10: Vetor ordenado - 0.132 s
+Teste 10 / 10: Vetor ordenado - 0.133 s
+
+Metodo de ordenacao: Bubble Sort
+Teste 1 / 10: Vetor ordenado - 0.466 s
+Teste 2 / 10: Vetor ordenado - 0.467 s
+Teste 3 / 10: Vetor ordenado - 0.464 s
+Teste 4 / 10: Vetor ordenado - 0.474 s
+Teste 5 / 10: Vetor ordenado - 0.468 s
+Teste 6 / 10: Vetor ordenado - 0.465 s
+Teste 7 / 10: Vetor ordenado - 0.466 s
+Teste 8 / 10: Vetor ordenado - 0.464 s
+Teste 9 / 10: Vetor ordenado - 0.466 s
+Teste 10 / 10: Vetor ordenado - 0.465 s
+

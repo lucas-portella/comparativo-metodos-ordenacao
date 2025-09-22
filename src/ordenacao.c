@@ -113,6 +113,7 @@ void merge (vetor *v, int ini, int meio, int fim) {
 	while (j < n2) 
 		elemento_vetor (v, k++) = elemento_vetor (aux, j++);
 	
+	aux = destroi_vetor(aux);
 }
 
 void merge_sort (vetor *v, int ini, int fim) {
